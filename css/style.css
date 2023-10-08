@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Times New Roman", Times, serif;
+  padding-top: 70px;
 }
 html {
   scroll-behavior: smooth;
@@ -47,6 +48,9 @@ header {
   flex-wrap: wrap;
   gap: 24px;
   padding: 8px 0 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 header ul {
   display: flex;
@@ -59,12 +63,12 @@ header ul li {
 header img {
   width: 180px;
 }
-header a {
+header li a {
   color: #ebebeb;
   border-bottom: 1px solid #ebebeb;
 }
-header a:hover,
-header a:focus {
+header li a:hover,
+header li a:focus {
   text-decoration: none;
   color: #f13e29;
   border-bottom: 1px solid #f13e29;
